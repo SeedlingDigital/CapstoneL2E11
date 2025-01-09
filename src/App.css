@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+
+.desktop {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +48,176 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar{
+  display: flex;
+  align-items: center;
+}
+
+
+.nav-bar_button{
+  width: 150px;
+  padding: 12px 24px;
+  margin: 8px ;
+  background-color: green;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  /* Box Shadow */
+  box-shadow: 1px 1px 10px 1px grey;
+}
+
+.logout-nav-bar_button{
+  width: 150px;
+  padding: 12px 24px;
+  margin: 8px ;
+  background-color: blue;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  /* Box Shadow */
+  box-shadow: 1px 1px 10px 1px grey;
+}
+
+.product-text{
+  padding: 12px 24px;
+  margin: 8px ;
+}
+
+.product-card{
+  margin: 0 auto;
+  width: 25rem;
+  padding: 10px;
+}
+
+.product-card-title
+{
+  font-size: 30px;
+}
+
+.product-card-image
+{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.product-card-subTitle
+{
+  font-size: 20px;
+}
+
+.product-card-description
+{
+  font-size: 20px;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.card-color{
+  background-color: grey;
+}
+
+
+.padding-card{
+  padding: 20px;
+}
+.margin-card{
+  padding: 20px;
+}
+
+
+.dropdown-item{
+  color: black;
+}
+
+
+.logo-image{
+  height: 30vmin;
+  width: 30vmin;
+  padding: 30px;
+  border-radius: 20vmin;
+
+  }
+
+.about-text{
+  width: 500px;
+  margin: auto;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+
+
+.logo-image-courasel{
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+}
+
+
+.courasel-text
+{
+  color: black;
+}
+
+
+.total-price{
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.products{
+
+}
+
+
+.center{
+  margin: auto;
+}
+
+
+.register-heading{
+  margin-bottom: 20px;
+}
+
+.login-text-label{
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.login-text-input{
+  padding-left: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.login-text-button{
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: dodgerblue;
+  font-size: 20px;
+}
+
+.login-text {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.register-message{font-size: 20px;}
+
+.login-error-text{
+  font-size: 16px;
+  color: red;
+}
+
+
